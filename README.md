@@ -1,7 +1,7 @@
 <p align="center"><img src="https://i.imgur.com/6WaJAdA.png" width="187px" height="125px"></p>
 <h1 align="center">MLGB (Mobile Legends: Gang Bang)</h1>
 
-<h5 align="center">DoS attack script for MLBB (Mobile Legends: Bang Bang) game servers.</h5>
+<h5 align="center">DDoS/DoS attack script for MLBB (Mobile Legends: Bang Bang) game servers.</h5>
 <em><h6 align="center">This script is provided for educational purposes only. Unauthorized use against servers without explicit permission is illegal and unethical. The authors of this script are not responsible for any misuse.</h6></em>
 
 <p align="center"><img src="https://i.imgur.com/anFgJFI.png"></p>
