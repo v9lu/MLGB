@@ -66,11 +66,6 @@ def start_threads(target_function, target: str, thread_count: int, event: thread
     threading.Thread(target=end_task, args=(duration, event)).start()
 
 
-UDP_EVENT = threading.Event()
-TCP_EVENT = threading.Event()
-START_EVENT = threading.Event()
-
-
 def print_banner():
     colors = [
         "\033[31m",
@@ -168,10 +163,14 @@ def main():
                   thread_count=args.tcp_thread_count,
                   event=TCP_EVENT,
                   duration=args.tcp_duration)
+
     START_EVENT.set()
 
     print_banner()
 
 
 if __name__ == '__main__':
+    UDP_EVENT = threading.Event()
+    TCP_EVENT = threading.Event()
+    START_EVENT = threading.Event()
     main()
